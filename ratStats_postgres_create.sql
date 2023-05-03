@@ -9,6 +9,31 @@ SET xmloption = content;
 SET client_min_messages = warning;
 SET row_security = off;
 
+-- CREATE TABLE public.rat (
+--     "_id" serial NOT NULL,
+--     "username" varchar NOT NULL,
+--     "where" nvarchar(50) NOT NULL,
+--     "when" timestamp NOT NULL,
+
+--     CONSTRAINT "rat_pk" PRIMARY KEY ("_id")
+--     ) WITH (
+--         OIDS = FALSE
+--     )
+-- )
+
+-- CREATE TABLE public.rat (
+--     _id SERIAL PRIMARY KEY NOT NULL,
+--     username VARCHAR NOT NULL,
+--     location VARCHAR NOT NULL,
+--     time TIMESTAMP NOT NULL,
+-- );
+
+-- INSERT INTO public.rat (username, location, time)
+-- VALUES
+-- ("MUSH", "(40.5, 130.5)", NOW())
+-- ("MU", "(40.5, 130.5)", NOW())
+-- ("MUS", "(40.5, 130.5)", NOW())
+
 -- CREATE TABLE public.users (
 -- 	"_id" serial NOT NULL,
 -- 	"username" varchar NOT NULL,
